@@ -10,53 +10,96 @@
         html {
             font-family: Arial, sans-serif;
         }
-        tr.LF td{
+
+        table {
+            font-size: small;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+        }
+
+        tr.LF td {
             background: rgb(255, 219, 219);
         }
-        tr.MF td{
+
+        tr.MF td {
             background: #ffeac3;
         }
-        tr.HF td{
+
+        tr.HF td {
             background: rgb(255, 248, 193);
         }
-        tr.VHF td{
+
+        tr.VHF td {
             background: rgb(208, 255, 208);
         }
-        tr.UHF td{
+
+        tr.UHF td {
             background: rgb(192, 211, 254);
         }
-        tr.SHF td{
+
+        tr.SHF td {
             background: rgb(255, 225, 255);
         }
-        tr.LF td:first-of-type{
+
+        tr.LF td:first-of-type {
             background: rgb(255, 175, 175);
         }
-        tr.MF td:first-of-type{
+
+        tr.MF td:first-of-type {
             background: #ffd27e;
         }
-        tr.HF td:first-of-type{
+
+        tr.HF td:first-of-type {
             background: rgb(255, 240, 126);
         }
-        tr.VHF td:first-of-type{
+
+        tr.VHF td:first-of-type {
             background: rgb(139, 255, 139);
         }
-        tr.UHF td:first-of-type{
+
+        tr.UHF td:first-of-type {
             background: rgb(118, 159, 255);
         }
-        tr.SHF td:first-of-type{
+
+        tr.SHF td:first-of-type {
             background: rgb(255, 137, 255);
         }
-        table, tr, td, th{
+
+        table,
+        tr,
+        td,
+        th {
             border-collapse: collapse;
         }
-        td{
+
+        td {
+            border: 2px solid white;
+        }
+
+        td {
             padding: 3px;
             white-space: nowrap;
+            height: 2em;
         }
-        th{
+
+        th {
             padding: 3px;
             background: black;
             color: white;
+        }
+
+        td div.comment {
+            white-space: wrap;
+            font-size: smaller;
+            max-width: 300px;
+        }
+
+        tr.sectionStart td {
+            border-top: 3px solid black;
+        }
+
+        table tr:last-of-type {
+            border-bottom: 3px solid black;
         }
     </style>
 
@@ -73,58 +116,74 @@
 
     function makeTheTable(foundationData) {
         var tableElm = document.createElement("table")
+        tableElm.id = "mainTable"
+
         var fields = [
-                "Class",
-                "Band",
-                "start",
-                "Amateur allocation",
-                "Amateur Satellite allocation",
-                "Maximum Peak Envelope Power",
-                "Airborne"
-            ]
+            "Class",
+            "Band",
+            "start",
+            "Amateur allocation",
+            "Amateur Satellite allocation",
+            "Maximum Peak Envelope Power",
+            "Airborne"
+        ]
 
         var tempHeaderRowElm = document.createElement("tr");
 
         fields.forEach(x => {
-                var tempHeaderCellElm = document.createElement("th")
+            var tempHeaderCellElm = document.createElement("th")
 
-                switch (x){
-                    case "start":
+            switch (x) {
+                case "start":
                     tempHeaderCellElm.innerHTML = "Frequency"
                     break
 
-                    default:
+                default:
                     tempHeaderCellElm.innerHTML = x
-                }
-                
-                tempHeaderRowElm.appendChild(tempHeaderCellElm)
-            })
+            }
+
+            tempHeaderRowElm.appendChild(tempHeaderCellElm)
+        })
 
         tableElm.append(tempHeaderRowElm)
 
         foundationData.forEach(x => {
             var tempRowElm = document.createElement("tr");
-            
+
             fields.forEach(y => {
                 var tempCellElm = document.createElement("td")
 
-                switch (y){
+                switch (y) {
                     case "Class":
-                    var tempClass = hertzToFrequencyClass(x.start)
-                    tempCellElm.innerHTML = tempClass
-                    tempRowElm.classList.add(tempClass)
-                    break
+                        var tempClass = hertzToFrequencyClass(x.start)
+                        tempCellElm.innerHTML = tempClass
+                        tempRowElm.classList.add(tempClass)
+                        break
 
                     case "start":
-                    tempCellElm.innerHTML = `${formatHertz(x.start, x["units"])} - ${formatHertz(x.end, x["units"])} ${x["units"]}`
-                    break
+                        tempCellElm.innerHTML = `${formatHertz(x.start, x["units"])} - ${formatHertz(x.end, x["units"])} ${x["units"]}`
+                        break
+
+                    case "Amateur allocation":
+                        tempCellElm.innerHTML = x[y]
+                        if (x["Amateur allocation comment"]) {
+                            tempCellElm.innerHTML += `<div class="comment">${x["Amateur allocation comment"]}</div>`
+                        }
+                        break
+
+                    case "Amateur Satellite allocation":
+                        tempCellElm.innerHTML = x[y]
+                        if (x["Amateur Satellite allocation comment"]) {
+                            tempCellElm.innerHTML += `<div class="comment">${x["Amateur Satellite allocation comment"]}</div>`
+                        }
+                        break
 
                     case "Airborne":
-                    x.Airborne ? tempCellElm.innerHTML = x.Airborne : tempCellElm.innerHTML = "-"
-                    break
+                        x.Airborne ? tempCellElm.innerHTML = x.Airborne : tempCellElm.innerHTML = "-"
+                        break
 
                     default:
-                    tempCellElm.innerHTML = x[y]
+                        tempCellElm.innerHTML = x[y]
                 }
 
                 tempRowElm.appendChild(tempCellElm)
@@ -136,28 +195,28 @@
         document.body.append(tableElm)
     }
 
-    function formatHertz(inputHertz, inputRange){
-        if (inputRange == "kHz"){
+    function formatHertz(inputHertz, inputRange) {
+        if (inputRange == "kHz") {
             return inputHertz / 1000
         }
-        else if (inputRange == "MHz"){
+        else if (inputRange == "MHz") {
             return inputHertz / 1000 / 1000
         }
-        else if (inputRange == "GHz"){
+        else if (inputRange == "GHz") {
             return inputHertz / 1000 / 1000 / 1000
         }
-        else{
+        else {
             console.error("Unknown range", inputRange)
         }
     }
 
-    function hertzToFrequencyClass(inputHertz){
+    function hertzToFrequencyClass(inputHertz) {
         // takes in a frequency in Hertz
         // returns, for example, "VHF" or "UHF"
         // supports ELF to THF
         const frequencyClasses = [
-            "ELF", "SLF", "ULF", "VLF", 
-            "LF", "MF", "HF", "VHF", 
+            "ELF", "SLF", "ULF", "VLF",
+            "LF", "MF", "HF", "VHF",
             "UHF", "SHF", "EHF", "THF"
         ]
 
@@ -169,10 +228,51 @@
         return frequencyClasses[idx]
     }
 
+    function Counter(array) {
+        // https://stackoverflow.com/a/44189621
+        array.forEach((val) => (this[val] = (this[val] || 0) + 1));
+    }
+
+    function doMergeCells(inputColumnIdx) {
+        /*
+        This function needs to be called on columns
+        going right to left. This is annoying but
+        necessary.
+        */
+        var targetTable = document.getElementById("mainTable")
+        var targetElms = targetTable.querySelectorAll(`tr td:nth-of-type(${inputColumnIdx + 1})`)
+        var cellCountentsCounter = new Counter([...targetElms].map(x => x.innerText))
+
+            // annotate cells with merge field
+            ;[...targetElms].forEach(x => {
+                x.dataset[`mergeCol${inputColumnIdx}`] = x.innerText
+            })
+
+        // set rowspan for first instance of value
+        for (var k in cellCountentsCounter) {
+            var v = cellCountentsCounter[k]
+
+            // get matching elms
+            var tempElms = [...document.querySelectorAll(`[data-merge-col${inputColumnIdx}='${k}']`)]
+            // iterate through, treating the first one differently
+            for (var i = 0; i < tempElms.length; i++) {
+                if (!i) {
+                    tempElms[i].setAttribute("rowspan", v)
+                    tempElms[i].parentElement.classList.add("sectionStart")
+                }
+                else {
+                    tempElms[i].style.display = "none"
+                }
+            }
+        }
+    }
+
     // init
     async function init() {
         await initJsonData()
-        //makeTheTable()
+        doMergeCells(1)
+        doMergeCells(0)
+
     }
 
     init();

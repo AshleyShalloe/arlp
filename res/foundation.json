@@ -8,11 +8,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -33,11 +33,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -62,12 +62,12 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "1W (0 dBW) ERP",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -92,7 +92,7 @@
             },
             "power": {
                 "normal": "2 W (3 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -108,11 +108,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -137,7 +137,7 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -156,11 +156,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -183,12 +183,12 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -204,11 +204,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -229,11 +229,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -252,11 +252,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -277,11 +277,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -302,16 +302,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -327,16 +327,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "1 W (0 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "GHz"
@@ -350,16 +350,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "1 W (0 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "GHz"
@@ -373,16 +373,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "1 W (0 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "GHz"
@@ -396,16 +396,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "1 W (0 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "GHz"
@@ -421,11 +421,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -444,11 +444,11 @@
             "allocation": {
                 "amateur": {
                     "status": "Primary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -473,12 +473,12 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -494,7 +494,7 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Secondary",
@@ -503,7 +503,7 @@
             },
             "power": {
                 "normal": "2 W (3 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -517,16 +517,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "2 W (3 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -544,12 +544,12 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "2 W (3 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -567,12 +567,12 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "2 W (3 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -592,7 +592,7 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
@@ -615,12 +615,12 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -636,16 +636,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW) ERP",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -663,12 +663,12 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW) ERP",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -682,16 +682,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -705,16 +705,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -728,16 +728,16 @@
             "allocation": {
                 "amateur": {
                     "status": "Secondary",
-                    "comment": NaN
+                    "comment": false
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": NaN
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -757,7 +757,7 @@
                 },
                 "amateurSatellite": {
                     "status": "Not allocated",
-                    "comment": NaN
+                    "comment": false
                 }
             },
             "power": {

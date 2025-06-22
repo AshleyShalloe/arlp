@@ -1,6 +1,6 @@
 [
     {
-        "Band":"136kHz",
+        "Band":"2200m",
         "Amateur allocation":"Secondary",
         "Amateur allocation comment":"Available on the basis of non-interference to other services.",
         "Amateur Satellite allocation":"Not allocated",
@@ -18,7 +18,7 @@
         "Amateur Satellite allocation":"Not allocated",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":1810000,
         "end":1830000
@@ -30,7 +30,7 @@
         "Amateur Satellite allocation":"Not allocated",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":1830000,
         "end":1850000
@@ -54,7 +54,7 @@
         "Amateur Satellite allocation":"Not allocated",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":3500000,
         "end":3800000
@@ -66,7 +66,7 @@
         "Amateur Satellite allocation":"Primary",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":7000000,
         "end":7100000
@@ -78,7 +78,7 @@
         "Amateur Satellite allocation":"Not allocated",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":7100000,
         "end":7200000
@@ -102,7 +102,7 @@
         "Amateur Satellite allocation":"Primary",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":14000000,
         "end":14250000
@@ -114,7 +114,7 @@
         "Amateur Satellite allocation":"Not allocated",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":14250000,
         "end":14350000
@@ -126,7 +126,7 @@
         "Amateur Satellite allocation":"Primary",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":18068000,
         "end":18168000
@@ -138,7 +138,7 @@
         "Amateur Satellite allocation":"Primary",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":21000000,
         "end":21450000
@@ -150,7 +150,7 @@
         "Amateur Satellite allocation":"Primary",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"kHz",
         "start":24890000,
         "end":24990000
@@ -162,19 +162,19 @@
         "Amateur Satellite allocation":"Primary",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"MHz",
         "start":28000000,
         "end":29700000
     },
     {
         "Band":"6m",
-        "Amateur allocation":"Primary.",
+        "Amateur allocation":"Primary",
         "Amateur allocation comment":"Available on the basis of non-interference to other services outside the UK or Crown Dependencies.",
         "Amateur Satellite allocation":"Not allocated",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"MHz",
         "start":50000000,
         "end":51000000
@@ -210,7 +210,7 @@
         "Amateur Satellite allocation":"Primary",
         "Amateur Satellite allocation comment":false,
         "Maximum Peak Envelope Power":"25 W (13.98 dBW)",
-        "Airborne":"500 mW EIRP airborne",
+        "Airborne":"500 mW EIRP",
         "units":"MHz",
         "start":144000000,
         "end":146000000

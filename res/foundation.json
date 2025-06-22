@@ -17,7 +17,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -42,32 +42,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
-            },
-            "meta": {
-                "preferredUnits": "kHz"
-            }
-        }
-    ],
-    "136kHz": [
-        {
-            "frequency": {
-                "start": 135700,
-                "end": 137800
-            },
-            "allocation": {
-                "amateur": {
-                    "status": "Secondary",
-                    "comment": "Available on the basis of non-interference to other services."
-                },
-                "amateurSatellite": {
-                    "status": "Not allocated",
-                    "comment": false
-                }
-            },
-            "power": {
-                "normal": "1W (0 dBW) ERP",
-                "airborne": false
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -117,7 +92,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -142,7 +117,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -165,7 +140,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -213,7 +188,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -238,7 +213,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -261,7 +236,32 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "2200m": [
+        {
+            "frequency": {
+                "start": 135700,
+                "end": 137800
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Available on the basis of non-interference to other services."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": false
+                }
+            },
+            "power": {
+                "normal": "1W (0 dBW) ERP",
+                "airborne": false
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -286,7 +286,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -430,7 +430,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -453,7 +453,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"
@@ -587,7 +587,7 @@
             },
             "allocation": {
                 "amateur": {
-                    "status": "Primary.",
+                    "status": "Primary",
                     "comment": "Available on the basis of non-interference to other services outside the UK or Crown Dependencies."
                 },
                 "amateurSatellite": {
@@ -597,7 +597,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "MHz"
@@ -762,7 +762,7 @@
             },
             "power": {
                 "normal": "25 W (13.98 dBW)",
-                "airborne": "500 mW EIRP airborne"
+                "airborne": "500 mW EIRP"
             },
             "meta": {
                 "preferredUnits": "kHz"

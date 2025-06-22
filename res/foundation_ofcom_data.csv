@@ -1,0 +1,33 @@
+Band,Frequency band start,Frequency band end,Amateur allocation,Amateur allocation comment,Amateur Satellite allocation,Amateur Satellite allocation comment,Maximum Peak Envelope Power,Airborne
+136kHz,135.7,137.8 kHz,Secondary,Available on the basis of non-interference to other services.,Not allocated,,1W (0 dBW) ERP,
+160m,1810,1830 kHz,Primary,Available on the basis of non-interference to other services outside the UK or Crown Dependencies.,Not allocated,,25 W (13.98 dBW),500 mW EIRP airborne
+160m,1830,1850 kHz,Primary,,Not allocated,,25 W (13.98 dBW),500 mW EIRP airborne
+160m,1850,2000 kHz,Secondary,Available on the basis of non-interference to other services.,Not allocated,,25 W (13.98 dBW),
+80m,3500,3800 kHz,Primary,Shared with other Services.,Not allocated,,25 W (13.98 dBW),500 mW EIRP airborne
+40m,7000,7100 kHz,Primary,,Primary,,25 W (13.98 dBW),500 mW EIRP airborne
+40m,7100,7200 kHz,Primary,,Not allocated,,25 W (13.98 dBW),500 mW EIRP airborne
+30m,10100,10150 kHz,Secondary,,Not allocated,,25 W (13.98 dBW)
+20m,14000,14250 kHz,Primary,,Primary,,25 W (13.98 dBW),500 mW EIRP airborne
+20m,14250,14350 kHz,Primary,,Not allocated,,25 W (13.98 dBW),500 mW EIRP airborne
+17m,18068,18168 kHz,Primary,,Primary,,25 W (13.98 dBW),500 mW EIRP airborne
+15m,21000,21450 kHz,Primary,,Primary,,25 W (13.98 dBW),500 mW EIRP airborne
+12m,24890,24990 kHz,Primary,,Primary,,25 W (13.98 dBW),500 mW EIRP airborne
+10m,28.0,29.7 MHz,Primary,,Primary,,25 W (13.98 dBW),500 mW EIRP airborne
+6m,50,51 MHz,Primary.,Available on the basis of non-interference to other services outside the UK or Crown Dependencies.,Not allocated,,25 W (13.98 dBW),500 mW EIRP airborne
+6m,51,52 MHz,Secondary,Available on the basis of non-interference to other services.,Not allocated,,25 W (13.98 dBW)
+4m,70.0,70.5 MHz,Secondary,Available on the basis of non-interference to other services.,Not allocated,,25 W (13.98 dBW)
+2m,144,146 MHz,Primary,,Primary,,25 W (13.98 dBW),500 mW EIRP airborne
+70cm,430,431 MHz,Secondary,,Not allocated,,25 W (13.98 dBW) ERP
+70cm,431,432 MHz,Secondary,Not available for use within 100km radius of Charing Cross London (51°30'30''N 00°07'24''W).,Not allocated,,25 W (13.98 dBW) ERP
+70cm,432,435 MHz,Secondary,,Not allocated,,25 W (13.98 dBW)
+70cm,435,438 MHz,Secondary,,Secondary,,25 W (13.98 dBW)
+70cm,438,440 MHz,Secondary,,Not allocated,,25 W (13.98 dBW)
+13cm,2400,2450 MHz,Secondary,Users must accept interference from ISM users.,Secondary,Users must accept interference from ISM users.,2 W (3 dBW)
+6cm,5650,5670 MHz,Secondary,,Secondary,Earth to space only,2 W (3 dBW)
+6cm,5670,5680 MHz,Secondary,,Not allocated,,2 W (3 dBW)
+6cm,5755,5765 MHz,Secondary,Users must accept interference from ISM users.,Not allocated,,2 W (3 dBW)
+6cm,5820,5830 MHz,Secondary,Users must accept interference from ISM users.,Not allocated,,2 W (3 dBW)
+3cm,10.000,10.125 GHz,Secondary,,Not allocated,,1 W (0 dBW)
+3cm,10.225,10.450 GHz,Secondary,,Not allocated,,1 W (0 dBW)
+3cm,10.450,10.475 GHz,Secondary,,Secondary,,1 W (0 dBW)
+3cm,10.475,10.500 GHz,Not allocated,,Secondary,,1 W (0 dBW)

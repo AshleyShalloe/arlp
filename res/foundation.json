@@ -1,0 +1,772 @@
+{
+    "10m": [
+        {
+            "frequency": {
+                "start": 28000000,
+                "end": 29700000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Primary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        }
+    ],
+    "12m": [
+        {
+            "frequency": {
+                "start": 24890000,
+                "end": 24990000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Primary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "136kHz": [
+        {
+            "frequency": {
+                "start": 135700,
+                "end": 137800
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Available on the basis of non-interference to other services."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "1W (0 dBW) ERP",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "13cm": [
+        {
+            "frequency": {
+                "start": 2400000000,
+                "end": 2450000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Users must accept interference from ISM users."
+                },
+                "amateurSatellite": {
+                    "status": "Secondary",
+                    "comment": "Users must accept interference from ISM users."
+                }
+            },
+            "power": {
+                "normal": "2 W (3 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        }
+    ],
+    "15m": [
+        {
+            "frequency": {
+                "start": 21000000,
+                "end": 21450000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Primary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "160m": [
+        {
+            "frequency": {
+                "start": 1810000,
+                "end": 1830000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": "Available on the basis of non-interference to other services outside the UK or Crown Dependencies."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 1830000,
+                "end": 1850000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 1850000,
+                "end": 2000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Available on the basis of non-interference to other services."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "17m": [
+        {
+            "frequency": {
+                "start": 18068000,
+                "end": 18168000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Primary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "20m": [
+        {
+            "frequency": {
+                "start": 14000000,
+                "end": 14250000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Primary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 14250000,
+                "end": 14350000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "2m": [
+        {
+            "frequency": {
+                "start": 144000000,
+                "end": 146000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Primary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        }
+    ],
+    "30m": [
+        {
+            "frequency": {
+                "start": 10100000,
+                "end": 10150000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "3cm": [
+        {
+            "frequency": {
+                "start": 10000000000,
+                "end": 10125000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "1 W (0 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "GHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 10225000000,
+                "end": 10450000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "1 W (0 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "GHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 10450000000,
+                "end": 10475000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Secondary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "1 W (0 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "GHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 10475000000,
+                "end": 10500000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Secondary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "1 W (0 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "GHz"
+            }
+        }
+    ],
+    "40m": [
+        {
+            "frequency": {
+                "start": 7000000,
+                "end": 7100000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Primary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 7100000,
+                "end": 7200000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ],
+    "4m": [
+        {
+            "frequency": {
+                "start": 70000000,
+                "end": 70500000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Available on the basis of non-interference to other services."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        }
+    ],
+    "6cm": [
+        {
+            "frequency": {
+                "start": 5650000000,
+                "end": 5670000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Secondary",
+                    "comment": "Earth to space only"
+                }
+            },
+            "power": {
+                "normal": "2 W (3 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 5670000000,
+                "end": 5680000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "2 W (3 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 5755000000,
+                "end": 5765000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Users must accept interference from ISM users."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "2 W (3 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 5820000000,
+                "end": 5830000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Users must accept interference from ISM users."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "2 W (3 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        }
+    ],
+    "6m": [
+        {
+            "frequency": {
+                "start": 50000000,
+                "end": 51000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary.",
+                    "comment": "Available on the basis of non-interference to other services outside the UK or Crown Dependencies."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 51000000,
+                "end": 52000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Available on the basis of non-interference to other services."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        }
+    ],
+    "70cm": [
+        {
+            "frequency": {
+                "start": 430000000,
+                "end": 431000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW) ERP",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 431000000,
+                "end": 432000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": "Not available for use within 100km radius of Charing Cross London (51\u00b030'30''N 00\u00b007'24''W)."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW) ERP",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 432000000,
+                "end": 435000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 435000000,
+                "end": 438000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Secondary",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        },
+        {
+            "frequency": {
+                "start": 438000000,
+                "end": 440000000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Secondary",
+                    "comment": NaN
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": NaN
+            },
+            "meta": {
+                "preferredUnits": "MHz"
+            }
+        }
+    ],
+    "80m": [
+        {
+            "frequency": {
+                "start": 3500000,
+                "end": 3800000
+            },
+            "allocation": {
+                "amateur": {
+                    "status": "Primary",
+                    "comment": "Shared with other Services."
+                },
+                "amateurSatellite": {
+                    "status": "Not allocated",
+                    "comment": NaN
+                }
+            },
+            "power": {
+                "normal": "25 W (13.98 dBW)",
+                "airborne": "500 mW EIRP airborne"
+            },
+            "meta": {
+                "preferredUnits": "kHz"
+            }
+        }
+    ]
+}
